@@ -15,8 +15,9 @@ vs [ab benchmark for virtualbox](https://github.com/adri/vagrant-virtualbox-vs-p
 The tests are using a demo installation of the Symfony2 Framework running in development mode including xdebug.
 To see the code and run tests yourself use:
 
- 1. `git checkout virtualbox && composer install && vagrant up` and access [vagrant-symfony-virtualbox.dev] 
- 2. `git checkout parallels && composer install && vagrant up` and access [vagrant-symfony-parallels.dev]
+ 1. `git clone git@github.com:adri/vagrant-virtualbox-vs-parallels.git && cd vagrant-virtualbox-vs-parallels`
+ 2. `git checkout virtualbox && composer install && vagrant up` and access [vagrant-symfony-virtualbox.dev](http://vagrant-symfony-virtualbox.dev)
+ 3. `git checkout parallels && composer install && vagrant up` and access [vagrant-symfony-parallels.dev](http://vagrant-symfony-parallels.dev)
 
 ## VM Configuration
 
