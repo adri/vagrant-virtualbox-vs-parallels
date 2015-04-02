@@ -19,6 +19,8 @@ To see the code and run tests yourself use:
  2. `git checkout virtualbox && composer install && vagrant up` and access [vagrant-symfony-virtualbox.dev](http://vagrant-symfony-virtualbox.dev)
  3. `git checkout parallels && composer install && vagrant up` and access [vagrant-symfony-parallels.dev](http://vagrant-symfony-parallels.dev)
 
+[View changes between the two setups](https://github.com/adri/vagrant-virtualbox-vs-parallels/compare/virtualbox...parallels).
+
 ## VM Configuration
 
  - memory: 1024 Mbyte
