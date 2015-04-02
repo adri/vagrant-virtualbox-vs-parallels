@@ -6,11 +6,11 @@ vagrantfile-local:
         hostname: ''
         memory: '1024'
         cpus: '8'
-        chosen_provider: virtualbox
+        chosen_provider: parallels
         network:
-            private_network: 192.168.42.2
+            private_network: 192.168.43.3
             forwarded_port:
-                f92uRg9ZyLq9:
+                f92uRg9ZyLq8:
                     host: '5836'
                     guest: '22'
         post_up_message: ''
@@ -21,7 +21,7 @@ vagrantfile-local:
             vmware:
                 numvcpus: 1
             parallels:
-                cpus: 1
+                cpus: 8
         provision:
             puppet:
                 manifests_path: puphpet/puppet
@@ -32,7 +32,7 @@ vagrantfile-local:
                     - '--hiera_config /vagrant/puphpet/puppet/hiera.yaml'
                     - '--parser future'
         synced_folder:
-            QX58m0GAW2Wm:
+            QX58m0GAW2Wn:
                 owner: www-data
                 group: www-data
                 source: ./
@@ -89,7 +89,7 @@ apache:
         - proxy_fcgi
         - rewrite
     vhosts:
-        bbuvl0krkpmx:
+        bbuvl0krkpmn:
             servername: awesome.dev
             serveraliases:
                 - www.awesome.dev
@@ -129,9 +129,9 @@ nginx:
         proxy_buffers: '4 256k'
     upstreams: {  }
     vhosts:
-        wo3m6rcu5zsi:
+        wo3m6rcu5zsa:
             proxy: ''
-            server_name: vagrant-symfony-virtualbox.dev
+            server_name: vagrant-symfony-parallels.dev
             www_root: /var/www/web
             listen_port: '80'
             index_files:
