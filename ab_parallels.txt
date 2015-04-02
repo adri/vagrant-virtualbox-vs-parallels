@@ -1,0 +1,55 @@
+ab -n 1000 -c 10 http://vagrant-symfony-parallels.dev/demo/secured/hello/World
+This is ApacheBench, Version 2.3 <$Revision: 1554214 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking vagrant-symfony-parallels.dev (be patient)
+Completed 100 requests
+Completed 200 requests
+Completed 300 requests
+Completed 400 requests
+Completed 500 requests
+Completed 600 requests
+Completed 700 requests
+Completed 800 requests
+Completed 900 requests
+Completed 1000 requests
+Finished 1000 requests
+
+
+Server Software:        nginx/1.6.2
+Server Hostname:        vagrant-symfony-parallels.dev
+Server Port:            80
+
+Document Path:          /demo/secured/hello/World
+Document Length:        464 bytes
+
+Concurrency Level:      10
+Time taken for tests:   25.666 seconds
+Complete requests:      1000
+Failed requests:        0
+Non-2xx responses:      1000
+Total transferred:      862000 bytes
+HTML transferred:       464000 bytes
+Requests per second:    38.96 [#/sec] (mean)
+Time per request:       256.659 [ms] (mean)
+Time per request:       25.666 [ms] (mean, across all concurrent requests)
+Transfer rate:          32.80 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    6  81.7      0    1158
+Processing:    79  250  59.9    232     524
+Waiting:       79  250  59.9    232     524
+Total:         79  256  99.5    232    1441
+
+Percentage of the requests served within a certain time (ms)
+  50%    232
+  66%    256
+  75%    279
+  80%    292
+  90%    339
+  95%    384
+  98%    422
+  99%    445
+ 100%   1441 (longest request) 
