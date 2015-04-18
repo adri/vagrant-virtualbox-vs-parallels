@@ -1,4 +1,4 @@
-Vagrant: Virtualbox vs Parallels 9 Performance for PHP development
+Vagrant: Virtualbox vs Parallels Performance for PHP development
 ===================================================================
 
 > I've tried to compare the providers fairly. Of course these benchmarks are specific to my machine and environment. So please don't take them as set in stone. 
