@@ -1,10 +1,9 @@
 Vagrant: Virtualbox vs Parallels 9 Performance for PHP development
 ===================================================================
 
+> I've tried to compare the providers fairly. Of course these benchmarks are specific to my machine and environment. So please don't take them as set in stone. 
+
 TLDR; The vagrant parallels provider is much faster than the virtualbox provider.
-Parallels scored in a `ab` benchmark **38.96 vs 17.24 requests per second** using virtualbox.
-See [ab benchmark for parallels]() 
-vs [ab benchmark for virtualbox]().
 
 Using Vagrant 1.7.2:
  
