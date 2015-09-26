@@ -26,11 +26,19 @@ To see the code and run tests yourself use:
 
 [View changes between the two setups](https://github.com/adri/vagrant-virtualbox-vs-parallels/compare/virtualbox...parallels).
 
+## What is benchmarked
+
+The login page in the Symfony2 demo installation is benchmared with Apache benchmark. 
+
+<img width="600" alt="sf-demo-page" src="https://cloud.githubusercontent.com/assets/133832/10116866/1e0f8488-6443-11e5-81b4-9919ffe0a068.png">
+
+
 ## VM Configuration
 
  - memory: 1024 Mbyte
  - cpu(s): 8
- - php 5.6 with xdebug running
+ - php 5.6 with xdebug and opcode cache
+ - php fpm
  - nginx
 
 ## System
