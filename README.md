@@ -28,7 +28,7 @@ To see the code and run tests yourself use:
 
 ## What is benchmarked
 
-The login page in the Symfony2 demo installation is benchmared with Apache benchmark. 
+The login page in the Symfony2 demo installation is benchmarked with Apache benchmark. 
 
 <img width="600" alt="sf-demo-page" src="https://cloud.githubusercontent.com/assets/133832/10116866/1e0f8488-6443-11e5-81b4-9919ffe0a068.png">
 
