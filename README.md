@@ -7,13 +7,14 @@ TLDR; The vagrant parallels provider is much faster than the virtualbox provider
 
 Using Vagrant 1.7.2:
  
-| Provider      | Version           | Request/Sec  |
-| ------------- |:-------------| -----:|
-| virtualbox     | Virtualbox 4.3.26 | [17.24](https://github.com/adri/vagrant-virtualbox-vs-parallels/blob/comparison/ab_virtualbox.txt) |
-| parallels      | Parallels Desktop 9.0.24251      |  [38.96](https://github.com/adri/vagrant-virtualbox-vs-parallels/blob/comparison/ab_parallels_9.txt) |
-| parallels    | Parallels Desktop 10.2.0 (28956)     |  [44.41](https://github.com/adri/vagrant-virtualbox-vs-parallels/blob/comparison/ab_parallels_10.txt) |
+| Provider      | Version           | Request/Sec  | Notes |
+| ------------- |:------------------| ------------:|:------|
+| virtualbox     | Virtualbox 4.3.26 | [17.24](https://github.com/adri/vagrant-virtualbox-vs-parallels/blob/comparison/ab_virtualbox.txt) |nginx 1.6.2 |
+| parallels      | Parallels Desktop 9.0.24251      |  [38.96](https://github.com/adri/vagrant-virtualbox-vs-parallels/blob/comparison/ab_parallels_9.txt) |nginx 1.6.2 |
+| parallels    | Parallels Desktop 10.2.0 (28956)     |  [44.41](https://github.com/adri/vagrant-virtualbox-vs-parallels/blob/comparison/ab_parallels_10.txt) | nginx 1.6.2 |
+| parallels    | Parallels Desktop 11.0.1 (31277)     |  [47.65](https://github.com/adri/vagrant-virtualbox-vs-parallels/blob/comparison/ab_parallels_11.txt) | nginx 1.8.0 (*) |
 
-
+(*) coudn't get nginx 1.6.2 installed on a current ubuntu trusty, can't find the package anymore.
 
 ## Code
 
